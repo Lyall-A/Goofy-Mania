@@ -1,0 +1,102 @@
+html, body { height: 100% }
+
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map-select, #difficulty-select {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+#mania {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(85, 85, 85);
+    height: 100%;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+#keys { 
+    margin: 10px;
+    display: flex;
+    z-index: 0;
+}
+
+#notes {
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.row {
+    min-width: 150px;
+}
+
+.note {
+    position: absolute;
+    background-color: rgb(70, 113, 255);
+    margin-right: 15px;
+    margin-left: 15px;
+    min-width: 120px;
+    min-height: 120px;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+    background-color: rgb(121, 121, 121);
+    border: 5px solid rgb(199, 199, 199);
+    margin: 10px;
+    min-width: 120px;
+    min-height: 120px;
+}
+
+.keydown {
+    background-color: rgb(184, 184, 184); 
+}
+
+#combo {
+    font-size: 5rem;
+}
+
+#points {
+    font-size: 2rem;
+}
+
+.stats {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div { border: 1px dotted red; }   */
