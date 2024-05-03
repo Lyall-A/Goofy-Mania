@@ -76,7 +76,6 @@ class Mania {
             const { y: keyY } = key.keyElement.getBoundingClientRect();
 
             const distance = Math.max(keyY - noteY, noteY - keyY);
-            console.log(distance, noteY, keyY);
 
             let addedPoints = false;
             points.forEach(point => {
@@ -177,7 +176,20 @@ class Mania {
                 }
             }, 10);
 
-            this.song.onended = () => clearInterval(checkMapping);
+            this.song.onended = () => {
+                clearInterval(checkMapping);
+                this.stop();
+            }
         }, this.map.offset);
+
+        if (this.onstart) this.onstart();
+    }
+
+    stop() {
+        this.song.pause();
+        this.song.remove();
+        this.parent.style.display = "none";
+        this.parent.innerHTML = "";
+        if (this.onstop) this.onstop();
     }
 }

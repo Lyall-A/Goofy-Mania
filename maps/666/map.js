@@ -14,7 +14,7 @@ maps.push(
                 keys: 4,
                 data: [
                     {
-                        "beat": 83.38754010000001,
+                        "beat": 19.5620295,
                         "notes": [
                             true,
                             false,
@@ -23,7 +23,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 85.4799123,
+                        "beat": 19.5620295,
                         "notes": [
                             false,
                             false,
@@ -32,25 +32,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 87.4121226,
+                        "beat": 34.762425,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 89.20027710000001,
+                        "beat": 37.8434631,
                         "notes": [
                             false,
                             false,
-                            false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 91.3868439,
+                        "beat": 38.8856865,
                         "notes": [
                             true,
                             false,
@@ -59,7 +59,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 92.82641400000001,
+                        "beat": 39.7867956,
                         "notes": [
                             false,
                             false,
@@ -68,25 +68,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 94.74473820000001,
+                        "beat": 45.722276400000005,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 96.6679464,
+                        "beat": 47.0099985,
                         "notes": [
                             false,
                             false,
-                            false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 98.73061500000001,
+                        "beat": 48.43140900000001,
                         "notes": [
                             true,
                             false,
@@ -95,7 +95,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 100.8097005,
+                        "beat": 49.2027258,
                         "notes": [
                             false,
                             false,
@@ -104,25 +104,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 102.35088000000002,
+                        "beat": 50.3613993,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 104.66228850000002,
+                        "beat": 54.3491742,
                         "notes": [
                             false,
                             false,
-                            false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 106.4643402,
+                        "beat": 57.30853410000001,
                         "notes": [
                             true,
                             false,
@@ -131,7 +131,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 108.64672230000001,
+                        "beat": 57.7127739,
                         "notes": [
                             false,
                             false,
@@ -140,7 +140,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 111.09744690000001,
+                        "beat": 62.71733100000001,
                         "notes": [
                             false,
                             true,
@@ -149,7 +149,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 112.90313940000001,
+                        "beat": 62.983719900000004,
                         "notes": [
                             false,
                             false,
@@ -158,25 +158,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 114.3290454,
+                        "beat": 65.55303690000001,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 116.14299630000001,
+                        "beat": 66.8568096,
                         "notes": [
                             false,
                             false,
-                            true,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 117.29003700000001,
+                        "beat": 70.20186120000001,
                         "notes": [
                             false,
                             true,
@@ -185,7 +185,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 119.2429266,
+                        "beat": 70.9867089,
                         "notes": [
                             false,
                             false,
@@ -194,25 +194,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 120.2641377,
+                        "beat": 80.2477275,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 121.9358088,
+                        "beat": 81.54033360000001,
                         "notes": [
                             false,
                             false,
-                            true,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 123.49448190000001,
+                        "beat": 83.3267565,
                         "notes": [
                             false,
                             true,
@@ -221,7 +221,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 124.2702054,
+                        "beat": 85.0262775,
                         "notes": [
                             false,
                             false,
@@ -230,7 +230,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 126.0611793,
+                        "beat": 86.3163639,
                         "notes": [
                             true,
                             false,
@@ -239,7 +239,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 126.7100187,
+                        "beat": 87.8651469,
                         "notes": [
                             false,
                             false,
@@ -248,7 +248,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 129.04144050000002,
+                        "beat": 89.1321564,
                         "notes": [
                             false,
                             true,
@@ -257,16 +257,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 130.3080171,
+                        "beat": 90.5679192,
                         "notes": [
                             false,
                             false,
-                            false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 131.59531740000003,
+                        "beat": 91.7059467,
                         "notes": [
                             true,
                             false,
@@ -275,7 +275,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 133.27260510000002,
+                        "beat": 93.38952809999999,
                         "notes": [
                             false,
                             false,
@@ -284,7 +284,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 134.9457636,
+                        "beat": 94.67363160000001,
                         "notes": [
                             false,
                             true,
@@ -293,7 +293,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 135.8568405,
+                        "beat": 96.2145891,
                         "notes": [
                             false,
                             false,
@@ -302,7 +302,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 137.4136932,
+                        "beat": 97.6557465,
                         "notes": [
                             true,
                             false,
@@ -311,7 +311,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 138.4049232,
+                        "beat": 99.2040411,
                         "notes": [
                             false,
                             false,
@@ -320,43 +320,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 139.7198847,
+                        "beat": 100.49558160000001,
                         "notes": [
                             false,
                             true,
-                            false,
-                            false
-                        ]
-                    },
-                    {
-                        "beat": 141.0241347,
-                        "notes": [
                             false,
-                            false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 145.1470743,
+                        "beat": 102.02168730000001,
                         "notes": [
-                            false,
-                            false,
                             false,
-                            true
-                        ]
-                    },
-                    {
-                        "beat": 145.257708,
-                        "notes": [
                             false,
                             true,
-                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 145.3923066,
+                        "beat": 103.29989670000002,
                         "notes": [
                             true,
                             false,
@@ -365,7 +347,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 149.1426858,
+                        "beat": 104.5892727,
                         "notes": [
                             false,
                             false,
@@ -374,7 +356,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 151.0488666,
+                        "beat": 106.0330275,
                         "notes": [
                             false,
                             true,
@@ -383,7 +365,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 151.6923669,
+                        "beat": 107.45247330000001,
                         "notes": [
                             false,
                             false,
@@ -392,7 +374,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 152.2343022,
+                        "beat": 108.8504184,
                         "notes": [
                             true,
                             false,
@@ -401,7 +383,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 153.8997018,
+                        "beat": 110.38999950000002,
                         "notes": [
                             false,
                             false,
@@ -410,43 +392,34 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 154.6844163,
+                        "beat": 112.83936990000001,
                         "notes": [
                             false,
-                            true,
                             false,
-                            false
-                        ]
-                    },
-                    {
-                        "beat": 155.58523680000002,
-                        "notes": [
                             true,
-                            false,
-                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 156.0818175,
+                        "beat": 114.4000299,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 158.39324820000002,
+                        "beat": 115.4403441,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 158.53818090000001,
+                        "beat": 117.09565380000001,
                         "notes": [
                             false,
                             false,
@@ -455,16 +428,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 159.6856434,
+                        "beat": 118.79176710000002,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 160.5773952,
+                        "beat": 119.5490757,
                         "notes": [
                             false,
                             false,
@@ -473,7 +446,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 162.5392425,
+                        "beat": 122.0030526,
                         "notes": [
                             false,
                             true,
@@ -482,25 +455,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 162.77977950000002,
+                        "beat": 122.9145735,
                         "notes": [
-                            false,
+                            true,
                             false,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 163.0389534,
+                        "beat": 124.1791743,
                         "notes": [
-                            true,
                             false,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 166.6596069,
+                        "beat": 125.99120490000001,
                         "notes": [
                             false,
                             false,
@@ -509,25 +482,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 167.03028030000002,
+                        "beat": 126.91180560000001,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 168.0779427,
+                        "beat": 127.5341049,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 168.4367169,
+                        "beat": 128.4591567,
                         "notes": [
                             false,
                             false,
@@ -536,25 +509,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 169.2205878,
+                        "beat": 129.3376551,
                         "notes": [
-                            true,
                             false,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 170.51764500000002,
+                        "beat": 130.3652376,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 173.4641511,
+                        "beat": 130.88107680000002,
                         "notes": [
                             true,
                             false,
@@ -563,7 +536,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 173.7282312,
+                        "beat": 131.9226453,
                         "notes": [
                             false,
                             false,
@@ -572,25 +545,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 174.6236349,
+                        "beat": 132.704829,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 174.6236349,
+                        "beat": 133.9737033,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 175.5491862,
+                        "beat": 134.7714381,
                         "notes": [
                             true,
                             false,
@@ -599,7 +572,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 175.65363720000002,
+                        "beat": 135.5304783,
                         "notes": [
                             false,
                             false,
@@ -608,25 +581,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 176.5633377,
+                        "beat": 136.42931190000002,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 176.69694840000003,
+                        "beat": 137.61838830000002,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 177.4727718,
+                        "beat": 137.9930577,
                         "notes": [
                             true,
                             false,
@@ -635,7 +608,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 177.8704959,
+                        "beat": 139.2727656,
                         "notes": [
                             false,
                             false,
@@ -644,25 +617,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 178.6508592,
+                        "beat": 139.6675482,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 178.7564424,
+                        "beat": 140.8143114,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 179.2684965,
+                        "beat": 141.0611865,
                         "notes": [
                             true,
                             false,
@@ -671,7 +644,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 179.657385,
+                        "beat": 145.31163180000001,
                         "notes": [
                             false,
                             false,
@@ -680,43 +653,43 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 180.05421,
+                        "beat": 145.3387602,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 180.5507352,
+                        "beat": 146.235951,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 181.0806492,
+                        "beat": 146.8768095,
                         "notes": [
-                            true,
                             false,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 181.60718880000002,
+                        "beat": 150.1070316,
                         "notes": [
-                            false,
+                            true,
                             false,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 182.0026152,
+                        "beat": 150.9844089,
                         "notes": [
                             false,
                             true,
@@ -725,7 +698,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 182.6286219,
+                        "beat": 151.5107154,
                         "notes": [
                             false,
                             false,
@@ -734,25 +707,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 183.00681000000003,
+                        "beat": 152.4256329,
                         "notes": [
-                            true,
                             false,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 184.17353100000003,
+                        "beat": 153.5848503,
                         "notes": [
-                            false,
+                            true,
                             false,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 184.17353100000003,
+                        "beat": 154.3389066,
                         "notes": [
                             false,
                             true,
@@ -761,7 +734,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 184.7106711,
+                        "beat": 155.2412478,
                         "notes": [
                             false,
                             false,
@@ -770,25 +743,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 185.0799681,
+                        "beat": 156.42110010000002,
                         "notes": [
-                            true,
                             false,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 186.09310950000003,
+                        "beat": 157.0381935,
                         "notes": [
-                            false,
+                            true,
                             false,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 186.23179290000002,
+                        "beat": 157.9465953,
                         "notes": [
                             false,
                             true,
@@ -797,7 +770,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 186.99835890000003,
+                        "beat": 159.23717010000001,
                         "notes": [
                             false,
                             false,
@@ -806,43 +779,43 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 187.25873160000003,
+                        "beat": 160.1406657,
                         "notes": [
-                            true,
                             false,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 188.30785920000002,
+                        "beat": 160.408986,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 188.4457101,
+                        "beat": 161.1805581,
                         "notes": [
                             false,
-                            false,
+                            true,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 189.19002060000003,
+                        "beat": 162.58902600000002,
                         "notes": [
-                            true,
                             false,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 189.7054713,
+                        "beat": 163.6404402,
                         "notes": [
                             false,
                             false,
@@ -851,7 +824,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 190.49837760000003,
+                        "beat": 163.6404402,
                         "notes": [
                             false,
                             true,
@@ -860,25 +833,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 191.12587170000003,
+                        "beat": 164.4102474,
                         "notes": [
-                            false,
+                            true,
                             false,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 191.23847010000003,
+                        "beat": 167.2301136,
                         "notes": [
-                            true,
                             false,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 192.29588940000002,
+                        "beat": 168.3885651,
                         "notes": [
                             false,
                             false,
@@ -887,7 +860,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 192.5336403,
+                        "beat": 168.9230301,
                         "notes": [
                             false,
                             true,
@@ -896,7 +869,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 193.4419977,
+                        "beat": 169.558494,
                         "notes": [
                             true,
                             false,
@@ -905,7 +878,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 193.58534310000002,
+                        "beat": 170.8307427,
                         "notes": [
                             false,
                             false,
@@ -914,25 +887,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 194.4937116,
+                        "beat": 170.9569386,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 194.61711030000004,
+                        "beat": 172.2631755,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 195.51947370000002,
+                        "beat": 172.6592568,
                         "notes": [
                             true,
                             false,
@@ -941,7 +914,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 195.8953974,
+                        "beat": 175.7345784,
                         "notes": [
                             false,
                             false,
@@ -950,16 +923,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 196.4119248,
+                        "beat": 175.7518278,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 196.9423716,
+                        "beat": 175.85334840000002,
                         "notes": [
                             false,
                             false,
@@ -968,25 +941,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 197.43918539999999,
+                        "beat": 176.65727700000002,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 197.98166460000002,
+                        "beat": 177.55657680000002,
                         "notes": [
                             false,
                             false,
-                            false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 199.5304476,
+                        "beat": 179.2081125,
                         "notes": [
                             true,
                             false,
@@ -995,7 +968,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 199.8877566,
+                        "beat": 181.0155699,
                         "notes": [
                             false,
                             false,
@@ -1004,7 +977,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 201.686778,
+                        "beat": 181.9305207,
                         "notes": [
                             true,
                             false,
@@ -1013,16 +986,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 201.686778,
+                        "beat": 183.3561825,
                         "notes": [
                             false,
                             false,
                             false,
                             true
+                        ]
+                    },
+                    {
+                        "beat": 184.5058428,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
                         ]
                     },
                     {
-                        "beat": 203.52560400000002,
+                        "beat": 186.17451690000001,
                         "notes": [
                             false,
                             false,
@@ -1031,7 +1013,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 203.77111380000002,
+                        "beat": 187.4683551,
                         "notes": [
                             true,
                             false,
@@ -1040,7 +1022,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 205.43368290000004,
+                        "beat": 188.8984902,
                         "notes": [
                             false,
                             false,
@@ -1049,7 +1031,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 205.82769960000002,
+                        "beat": 190.81049850000002,
                         "notes": [
                             true,
                             false,
@@ -1058,7 +1040,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 207.11706450000003,
+                        "beat": 191.7182898,
                         "notes": [
                             false,
                             false,
@@ -1067,7 +1049,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 207.5102709,
+                        "beat": 192.9962772,
                         "notes": [
                             true,
                             false,
@@ -1076,7 +1058,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 208.42454460000002,
+                        "beat": 194.2832445,
                         "notes": [
                             false,
                             false,
@@ -1085,43 +1067,43 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 208.5174849,
+                        "beat": 195.33797760000002,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 208.92721920000002,
+                        "beat": 197.1459567,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 209.6885904,
+                        "beat": 198.045978,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 209.8233,
+                        "beat": 199.6977468,
                         "notes": [
                             false,
                             false,
-                            false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 210.859374,
+                        "beat": 200.9984781,
                         "notes": [
                             false,
                             true,
@@ -1130,7 +1112,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 211.2206568,
+                        "beat": 201.9041382,
                         "notes": [
                             false,
                             false,
@@ -1139,7 +1121,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 211.75673130000004,
+                        "beat": 203.44223190000002,
                         "notes": [
                             true,
                             false,
@@ -1148,7 +1130,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 212.3998209,
+                        "beat": 204.60627780000002,
                         "notes": [
                             false,
                             false,
@@ -1157,7 +1139,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 213.03544019999998,
+                        "beat": 206.1678924,
                         "notes": [
                             false,
                             true,
@@ -1166,7 +1148,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 213.5702937,
+                        "beat": 207.4262994,
                         "notes": [
                             false,
                             false,
@@ -1175,7 +1157,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 213.93614970000002,
+                        "beat": 208.61275620000004,
                         "notes": [
                             true,
                             false,
@@ -1184,7 +1166,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 214.8365151,
+                        "beat": 209.89257510000002,
                         "notes": [
                             false,
                             false,
@@ -1193,7 +1175,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 215.1011613,
+                        "beat": 211.1739147,
                         "notes": [
                             false,
                             true,
@@ -1202,7 +1184,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 215.87799479999998,
+                        "beat": 212.3229867,
                         "notes": [
                             false,
                             false,
@@ -1211,7 +1193,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 216.0001059,
+                        "beat": 213.50111850000002,
                         "notes": [
                             true,
                             false,
@@ -1220,43 +1202,43 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 217.14771270000003,
+                        "beat": 214.77889500000003,
                         "notes": [
                             false,
-                            true,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 217.14771270000003,
+                        "beat": 215.8113726,
                         "notes": [
                             false,
-                            false,
+                            true,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 218.0581125,
+                        "beat": 216.977139,
                         "notes": [
-                            true,
                             false,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 218.0581125,
+                        "beat": 218.02292550000004,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 219.22114829999998,
+                        "beat": 219.68838060000002,
                         "notes": [
                             false,
                             false,
@@ -1265,7 +1247,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 219.4863495,
+                        "beat": 220.8545688,
                         "notes": [
                             false,
                             true,
@@ -1274,7 +1256,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 220.1319921,
+                        "beat": 222.24830699999998,
                         "notes": [
                             false,
                             false,
@@ -1283,25 +1265,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 220.2537813,
+                        "beat": 223.30437210000002,
                         "notes": [
                             true,
-                            false,
-                            false,
-                            false
-                        ]
-                    },
-                    {
-                        "beat": 221.404152,
-                        "notes": [
                             false,
-                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 221.404152,
+                        "beat": 224.593737,
                         "notes": [
                             false,
                             false,
@@ -1310,25 +1283,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 223.3745019,
+                        "beat": 225.86016930000002,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 223.48038480000002,
+                        "beat": 227.01865410000002,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 224.38646670000003,
+                        "beat": 228.05063220000002,
                         "notes": [
                             true,
                             false,
@@ -1337,7 +1310,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 224.38646670000003,
+                        "beat": 229.47350790000002,
                         "notes": [
                             false,
                             false,
@@ -1346,7 +1319,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 225.4158585,
+                        "beat": 230.650341,
                         "notes": [
                             false,
                             true,
@@ -1355,7 +1328,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 225.4158585,
+                        "beat": 231.68147550000003,
                         "notes": [
                             false,
                             false,
@@ -1364,7 +1337,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 226.30833180000002,
+                        "beat": 232.96312590000002,
                         "notes": [
                             true,
                             false,
@@ -1373,7 +1346,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 226.45320900000002,
+                        "beat": 234.24317790000003,
                         "notes": [
                             false,
                             false,
@@ -1382,25 +1355,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 227.2189203,
+                        "beat": 235.67790840000004,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 227.2189203,
+                        "beat": 237.0869868,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 228.11137140000002,
+                        "beat": 238.1004834,
                         "notes": [
                             true,
                             false,
@@ -1409,7 +1382,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 228.11137140000002,
+                        "beat": 239.66275290000002,
                         "notes": [
                             false,
                             false,
@@ -1418,7 +1391,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 229.0046994,
+                        "beat": 240.68417490000002,
                         "notes": [
                             false,
                             true,
@@ -1427,7 +1400,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 229.1573466,
+                        "beat": 242.1213474,
                         "notes": [
                             false,
                             false,
@@ -1436,7 +1409,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 229.90579739999998,
+                        "beat": 243.13286820000002,
                         "notes": [
                             true,
                             false,
@@ -1445,7 +1418,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 229.90579739999998,
+                        "beat": 244.56978540000003,
                         "notes": [
                             false,
                             false,
@@ -1454,44 +1427,26 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 232.3701528,
+                        "beat": 245.47089450000004,
                         "notes": [
                             false,
-                            false,
-                            true,
-                            false
-                        ]
-                    },
-                    {
-                        "beat": 232.4944284,
-                        "notes": [
                             true,
-                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 233.2849038,
+                        "beat": 246.8884755,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 233.38968780000002,
+                        "beat": 247.6624452,
                         "notes": [
-                            false,
-                            false,
-                            false,
-                            true
-                        ]
-                    },
-                    {
-                        "beat": 234.55468830000004,
-                        "notes": [
                             true,
                             false,
                             false,
@@ -1499,7 +1454,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 235.9839909,
+                        "beat": 249.19673160000002,
                         "notes": [
                             false,
                             false,
@@ -1508,16 +1463,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 236.35012440000003,
+                        "beat": 250.4751741,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 237.53619270000002,
+                        "beat": 252.01428900000002,
                         "notes": [
                             false,
                             false,
@@ -1526,7 +1481,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 237.924948,
+                        "beat": 252.17238630000003,
                         "notes": [
                             true,
                             false,
@@ -1535,7 +1490,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 239.1920241,
+                        "beat": 254.47452630000004,
                         "notes": [
                             false,
                             false,
@@ -1544,7 +1499,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 239.8359351,
+                        "beat": 255.1135533,
                         "notes": [
                             true,
                             false,
@@ -1553,25 +1508,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 240.3815778,
+                        "beat": 257.05973850000004,
                         "notes": [
                             false,
-                            false,
-                            true,
-                            false
-                        ]
-                    },
-                    {
-                        "beat": 240.62871930000003,
-                        "notes": [
                             false,
                             true,
-                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 241.53220380000002,
+                        "beat": 257.81557080000005,
                         "notes": [
                             true,
                             false,
@@ -1580,7 +1526,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 241.64126130000002,
+                        "beat": 259.9007391,
                         "notes": [
                             false,
                             false,
@@ -1589,7 +1535,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 242.5349334,
+                        "beat": 261.7085073,
                         "notes": [
                             false,
                             true,
@@ -1598,7 +1544,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 242.94271410000002,
+                        "beat": 262.0866288,
                         "notes": [
                             false,
                             false,
@@ -1607,7 +1553,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 243.1866033,
+                        "beat": 264.653637,
                         "notes": [
                             true,
                             false,
@@ -1616,7 +1562,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 243.1866033,
+                        "beat": 264.653637,
                         "notes": [
                             false,
                             false,
@@ -1625,16 +1571,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 244.35219210000002,
+                        "beat": 266.9738256,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 244.4875899,
+                        "beat": 266.9934726,
                         "notes": [
                             false,
                             false,
@@ -1643,34 +1589,34 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 244.4875899,
+                        "beat": 268.9171914,
                         "notes": [
                             false,
-                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 244.6153065,
+                        "beat": 269.3121738,
                         "notes": [
-                            true,
                             false,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 245.79440400000001,
+                        "beat": 271.1084313,
                         "notes": [
-                            false,
                             true,
+                            false,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 246.0165483,
+                        "beat": 271.8930237,
                         "notes": [
                             false,
                             false,
@@ -1679,7 +1625,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 246.5316771,
+                        "beat": 273.549066,
                         "notes": [
                             true,
                             false,
@@ -1688,43 +1634,43 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 247.193115,
+                        "beat": 274.9637721,
                         "notes": [
                             false,
                             false,
-                            true,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 247.3299225,
+                        "beat": 276.4019103,
                         "notes": [
-                            false,
+                            true,
                             false,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 247.4526774,
+                        "beat": 277.9425903,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 248.464842,
+                        "beat": 278.8480728,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 248.7289665,
+                        "beat": 280.3946358,
                         "notes": [
                             false,
                             false,
@@ -1733,25 +1679,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 248.8813362,
+                        "beat": 281.2918488,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 249.627456,
+                        "beat": 282.96020100000004,
                         "notes": [
                             false,
-                            true,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 250.2693468,
+                        "beat": 283.8674706,
                         "notes": [
                             true,
                             false,
@@ -1760,43 +1706,43 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 250.4238255,
+                        "beat": 285.421515,
                         "notes": [
                             false,
                             false,
-                            true,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 250.5433725,
+                        "beat": 285.7912893,
                         "notes": [
-                            false,
                             false,
                             false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 251.4479559,
+                        "beat": 286.3002798,
                         "notes": [
-                            false,
                             true,
                             false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 251.8215708,
+                        "beat": 286.94292540000004,
                         "notes": [
-                            false,
                             false,
+                            true,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 251.969889,
+                        "beat": 287.86129500000004,
                         "notes": [
                             false,
                             false,
@@ -1805,16 +1751,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 252.2274423,
+                        "beat": 287.979621,
                         "notes": [
-                            true,
                             false,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 253.3708422,
+                        "beat": 288.64579860000003,
                         "notes": [
                             false,
                             true,
@@ -1823,16 +1769,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 253.3708422,
+                        "beat": 288.7624041,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 253.8923535,
+                        "beat": 295.32340320000003,
                         "notes": [
                             false,
                             false,
@@ -1841,16 +1787,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 255.3318348,
+                        "beat": 295.4743854,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 255.5831166,
+                        "beat": 300.3705621,
                         "notes": [
                             false,
                             true,
@@ -1859,25 +1805,34 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 256.5122088,
+                        "beat": 300.4919406,
                         "notes": [
-                            false,
                             false,
                             false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 256.5122088,
+                        "beat": 302.9236953,
                         "notes": [
                             true,
                             false,
                             false,
                             false
+                        ]
+                    },
+                    {
+                        "beat": 302.9498913,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 257.6214318,
+                        "beat": 305.1123933,
                         "notes": [
                             false,
                             true,
@@ -1886,7 +1841,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 257.7642,
+                        "beat": 305.3783049,
                         "notes": [
                             false,
                             false,
@@ -1895,7 +1850,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 258.5251716,
+                        "beat": 307.30812870000005,
                         "notes": [
                             true,
                             false,
@@ -1904,7 +1859,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 258.9093426,
+                        "beat": 307.716198,
                         "notes": [
                             false,
                             false,
@@ -1913,7 +1868,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 259.68421140000004,
+                        "beat": 309.3801546,
                         "notes": [
                             false,
                             true,
@@ -1922,7 +1877,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 259.70604510000004,
+                        "beat": 309.9179163,
                         "notes": [
                             false,
                             false,
@@ -1931,7 +1886,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 260.4616443,
+                        "beat": 311.4414468,
                         "notes": [
                             true,
                             false,
@@ -1940,16 +1895,34 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 260.8616328,
+                        "beat": 312.0970017,
                         "notes": [
                             false,
                             false,
                             false,
                             true
+                        ]
+                    },
+                    {
+                        "beat": 313.74907020000006,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 314.2890519,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 262.7993043,
+                        "beat": 316.0885506,
                         "notes": [
                             true,
                             false,
@@ -1958,7 +1931,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 262.9031337,
+                        "beat": 316.71879750000005,
                         "notes": [
                             false,
                             false,
@@ -1967,7 +1940,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 263.80819440000005,
+                        "beat": 318.54317130000004,
                         "notes": [
                             false,
                             true,
@@ -1976,7 +1949,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 264.32428890000006,
+                        "beat": 318.9286743,
                         "notes": [
                             false,
                             false,
@@ -1985,7 +1958,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 264.8522049,
+                        "beat": 320.7051849,
                         "notes": [
                             true,
                             false,
@@ -1994,7 +1967,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 265.2502953,
+                        "beat": 321.24760860000004,
                         "notes": [
                             false,
                             false,
@@ -2003,7 +1976,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 265.8904878,
+                        "beat": 322.90395060000003,
                         "notes": [
                             false,
                             true,
@@ -2012,7 +1985,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 266.39843490000004,
+                        "beat": 323.5447758,
                         "notes": [
                             false,
                             false,
@@ -2021,7 +1994,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 266.78827800000005,
+                        "beat": 325.2339738,
                         "notes": [
                             true,
                             false,
@@ -2030,7 +2003,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 267.15881820000004,
+                        "beat": 325.6284123,
                         "notes": [
                             false,
                             false,
@@ -2039,7 +2012,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 267.800487,
+                        "beat": 327.4329948,
                         "notes": [
                             false,
                             true,
@@ -2048,7 +2021,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 268.0604268,
+                        "beat": 327.9328722,
                         "notes": [
                             false,
                             false,
@@ -2057,7 +2030,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 268.5894528,
+                        "beat": 329.7349461,
                         "notes": [
                             true,
                             false,
@@ -2066,7 +2039,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 268.9535106,
+                        "beat": 330.2689893,
                         "notes": [
                             false,
                             false,
@@ -2075,7 +2048,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 269.6064792,
+                        "beat": 332.34179220000004,
                         "notes": [
                             false,
                             true,
@@ -2084,7 +2057,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 270.3932472,
+                        "beat": 332.8183596,
                         "notes": [
                             false,
                             false,
@@ -2093,25 +2066,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 270.8862537,
+                        "beat": 334.52094420000003,
                         "notes": [
-                            false,
+                            true,
                             false,
                             false,
-                            true
+                            false
                         ]
                     },
                     {
-                        "beat": 272.7061653,
+                        "beat": 334.90099710000004,
                         "notes": [
-                            true,
                             false,
                             false,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 272.8460364,
+                        "beat": 336.8233506,
                         "notes": [
                             false,
                             false,
@@ -2120,7 +2093,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 273.8539053,
+                        "beat": 336.9689493,
                         "notes": [
                             false,
                             true,
@@ -2129,7 +2102,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 273.9871719,
+                        "beat": 337.3384572,
                         "notes": [
                             false,
                             false,
@@ -2138,7 +2111,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 274.7808108,
+                        "beat": 338.87549640000003,
                         "notes": [
                             true,
                             false,
@@ -2147,7 +2120,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 275.3966166,
+                        "beat": 339.7812564,
                         "notes": [
                             false,
                             false,
@@ -2156,25 +2129,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 275.9460333,
+                        "beat": 340.9539825,
                         "notes": [
-                            false,
-                            true,
                             false,
-                            false
-                        ]
-                    },
-                    {
-                        "beat": 276.3276402,
-                        "notes": [
                             false,
                             false,
-                            true,
-                            false
+                            true
                         ]
                     },
                     {
-                        "beat": 276.9463431,
+                        "beat": 341.7111246,
                         "notes": [
                             true,
                             false,
@@ -2183,7 +2147,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 277.2226554,
+                        "beat": 343.5253308,
                         "notes": [
                             false,
                             false,
@@ -2192,25 +2156,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 277.8564321,
+                        "beat": 344.31461850000005,
                         "notes": [
-                            false,
                             true,
                             false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 278.64145740000004,
+                        "beat": 346.36736370000006,
                         "notes": [
                             false,
                             false,
-                            true,
-                            false
+                            false,
+                            true
                         ]
                     },
                     {
-                        "beat": 278.77033950000003,
+                        "beat": 347.1309549,
                         "notes": [
                             true,
                             false,
@@ -2219,7 +2183,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 279.7773315,
+                        "beat": 349.3367136,
                         "notes": [
                             false,
                             false,
@@ -2228,25 +2192,34 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 279.9178908,
+                        "beat": 350.4939774,
                         "notes": [
-                            false,
                             true,
                             false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 280.69489080000005,
+                        "beat": 352.4160978,
                         "notes": [
+                            false,
+                            false,
                             true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 353.20753890000003,
+                        "notes": [
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 280.9412775,
+                        "beat": 355.1405262,
                         "notes": [
                             false,
                             false,
@@ -2255,16 +2228,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 281.7336399,
+                        "beat": 358.1047257,
                         "notes": [
-                            false,
                             true,
                             false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 282.23753550000004,
+                        "beat": 359.13679260000004,
                         "notes": [
                             false,
                             false,
@@ -2273,16 +2246,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 282.4859091,
+                        "beat": 361.19958330000003,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 283.5422961,
+                        "beat": 362.61008250000003,
                         "notes": [
                             false,
                             false,
@@ -2291,16 +2264,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 283.672821,
+                        "beat": 366.2180598,
                         "notes": [
+                            false,
                             false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 366.22227780000003,
+                        "notes": [
                             true,
                             false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 284.4265554,
+                        "beat": 368.7839136,
                         "notes": [
                             true,
                             false,
@@ -2309,7 +2291,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 284.6829765,
+                        "beat": 368.93111070000003,
                         "notes": [
                             false,
                             false,
@@ -2318,7 +2300,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 285.725544,
+                        "beat": 370.7455722,
                         "notes": [
                             false,
                             false,
@@ -2327,7 +2309,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 285.725544,
+                        "beat": 370.8547407,
                         "notes": [
                             false,
                             true,
@@ -2336,7 +2318,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 286.3782795,
+                        "beat": 374.73017250000004,
                         "notes": [
                             true,
                             false,
@@ -2345,7 +2327,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 286.7656917,
+                        "beat": 374.73017250000004,
                         "notes": [
                             false,
                             false,
@@ -2354,7 +2336,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 287.66822160000004,
+                        "beat": 376.78387230000004,
                         "notes": [
                             false,
                             true,
@@ -2363,16 +2345,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 288.93768420000004,
+                        "beat": 376.91132250000004,
                         "notes": [
                             false,
                             false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 378.98126160000004,
+                        "notes": [
                             true,
+                            false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 289.1811516,
+                        "beat": 379.2313113,
                         "notes": [
                             false,
                             false,
@@ -2381,34 +2372,34 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 289.5707949,
+                        "beat": 381.1843674,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 289.7227317,
+                        "beat": 381.43135350000006,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 290.6335644,
+                        "beat": 383.3782935,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 295.6423173,
+                        "beat": 383.7365904,
                         "notes": [
                             false,
                             false,
@@ -2417,25 +2408,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 295.6513527,
+                        "beat": 385.66494900000004,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 299.3633259,
+                        "beat": 385.80977070000006,
                         "notes": [
-                            false,
                             false,
                             false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 299.6262183,
+                        "beat": 388.12503090000007,
                         "notes": [
                             true,
                             false,
@@ -2444,25 +2435,34 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 301.1747904,
+                        "beat": 388.2671553,
                         "notes": [
+                            false,
                             false,
                             false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 390.56319030000003,
+                        "notes": [
+                            false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 301.31983410000004,
+                        "beat": 390.82606050000004,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 301.9861671,
+                        "beat": 392.7636321,
                         "notes": [
                             true,
                             false,
@@ -2471,7 +2471,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 302.62089840000004,
+                        "beat": 393.1518657,
                         "notes": [
                             false,
                             false,
@@ -2480,7 +2480,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 303.26446530000004,
+                        "beat": 395.07330900000005,
                         "notes": [
                             false,
                             true,
@@ -2489,16 +2489,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 304.2830346,
+                        "beat": 395.35176359999997,
                         "notes": [
-                            false,
                             false,
                             false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 305.0554614,
+                        "beat": 397.15175070000004,
                         "notes": [
                             true,
                             false,
@@ -2507,7 +2507,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 305.9656281,
+                        "beat": 397.79779290000005,
                         "notes": [
                             false,
                             false,
@@ -2516,25 +2516,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 307.355337,
+                        "beat": 399.61423020000007,
                         "notes": [
-                            true,
                             false,
+                            true,
                             false,
                             false
                         ]
                     },
                     {
-                        "beat": 307.647711,
+                        "beat": 399.9794313,
                         "notes": [
-                            false,
                             false,
                             false,
-                            true
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 309.44120460000005,
+                        "beat": 401.78339220000004,
                         "notes": [
                             false,
                             true,
@@ -2543,7 +2543,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 309.5479089,
+                        "beat": 401.9077122,
                         "notes": [
                             false,
                             false,
@@ -2552,7 +2552,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 311.36079420000004,
+                        "beat": 403.9647753,
                         "notes": [
                             true,
                             false,
@@ -2561,7 +2561,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 311.49613650000003,
+                        "beat": 404.09929619999997,
                         "notes": [
                             false,
                             false,
@@ -2570,7 +2570,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 313.3038159,
+                        "beat": 410.0404269,
                         "notes": [
                             false,
                             true,
@@ -2579,7 +2579,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 313.4322429,
+                        "beat": 410.15477910000004,
                         "notes": [
                             false,
                             false,
@@ -2588,7 +2588,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 315.35820390000003,
+                        "beat": 412.23980309999996,
                         "notes": [
                             true,
                             false,
@@ -2597,25 +2597,52 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 315.35820390000003,
+                        "beat": 412.49006370000006,
                         "notes": [
                             false,
                             false,
                             false,
                             true
+                        ]
+                    },
+                    {
+                        "beat": 414.1464501,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 414.2749437,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
                         ]
                     },
                     {
-                        "beat": 317.4395205,
+                        "beat": 417.6249126,
                         "notes": [
+                            false,
                             false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 417.88284330000005,
+                        "notes": [
                             true,
                             false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 317.4395205,
+                        "beat": 420.98013180000004,
                         "notes": [
                             false,
                             false,
@@ -2624,7 +2651,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 319.4926098,
+                        "beat": 421.50744840000004,
                         "notes": [
                             true,
                             false,
@@ -2633,7 +2660,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 319.5967722,
+                        "beat": 423.9585726,
                         "notes": [
                             false,
                             false,
@@ -2642,16 +2669,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 321.6941838,
+                        "beat": 424.4843796,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 321.936963,
+                        "beat": 429.50043630000005,
                         "notes": [
                             false,
                             true,
@@ -2660,16 +2687,16 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 323.6150055,
+                        "beat": 429.6127239,
                         "notes": [
-                            true,
                             false,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 323.6234526,
+                        "beat": 433.87001790000005,
                         "notes": [
                             false,
                             false,
@@ -2678,34 +2705,61 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 325.2865212,
+                        "beat": 434.0193684,
                         "notes": [
+                            true,
                             false,
                             false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 437.6036916,
+                        "notes": [
                             true,
+                            false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 326.077263,
+                        "beat": 438.51368070000007,
                         "notes": [
+                            false,
                             true,
                             false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 441.75385950000003,
+                        "notes": [
+                            false,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 326.98047,
+                        "beat": 445.21137630000004,
                         "notes": [
                             false,
                             false,
                             false,
                             true
+                        ]
+                    },
+                    {
+                        "beat": 449.4858753,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
                         ]
                     },
                     {
-                        "beat": 327.4875402,
+                        "beat": 450.48702870000005,
                         "notes": [
                             false,
                             true,
@@ -2714,16 +2768,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 327.4875402,
+                        "beat": 451.0138458,
                         "notes": [
+                            false,
                             false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 452.44990830000006,
+                        "notes": [
                             false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 328.8825438,
+                        "beat": 453.197793,
                         "notes": [
                             true,
                             false,
@@ -2732,7 +2795,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 329.13999720000004,
+                        "beat": 453.5806653,
                         "notes": [
                             false,
                             false,
@@ -2741,34 +2804,43 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 329.1558147,
+                        "beat": 454.99710300000004,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 329.5438929,
+                        "beat": 460.9269006,
                         "notes": [
-                            false,
                             true,
                             false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 331.2169404,
+                        "beat": 461.1831885,
                         "notes": [
                             false,
                             false,
                             false,
                             true
+                        ]
+                    },
+                    {
+                        "beat": 462.2426391,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
                         ]
                     },
                     {
-                        "beat": 332.5057392,
+                        "beat": 463.3640277,
                         "notes": [
                             false,
                             false,
@@ -2777,7 +2849,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 332.5057392,
+                        "beat": 469.43438460000004,
                         "notes": [
                             false,
                             false,
@@ -2786,34 +2858,52 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 332.6093355,
+                        "beat": 470.3622558,
                         "notes": [
-                            true,
                             false,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 333.94038090000004,
+                        "beat": 470.4606018,
                         "notes": [
+                            false,
+                            true,
                             false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 471.2639532,
+                        "notes": [
                             true,
                             false,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 334.4296134,
+                        "beat": 472.80228,
                         "notes": [
+                            false,
                             false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 474.34621230000005,
+                        "notes": [
                             false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 335.0744346,
+                        "beat": 475.1053524,
                         "notes": [
                             true,
                             false,
@@ -2822,7 +2912,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 335.4780084,
+                        "beat": 476.52273360000004,
                         "notes": [
                             false,
                             false,
@@ -2831,25 +2921,25 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 336.23440680000004,
+                        "beat": 476.77592460000005,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 336.6202539,
+                        "beat": 478.44589740000004,
                         "notes": [
-                            false,
                             false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 337.01854410000004,
+                        "beat": 478.8557649,
                         "notes": [
                             true,
                             false,
@@ -2858,16 +2948,34 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 337.3952004,
+                        "beat": 480.14353140000003,
                         "notes": [
                             false,
                             false,
                             false,
                             true
+                        ]
+                    },
+                    {
+                        "beat": 480.25836090000007,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 481.8009612000001,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
                         ]
                     },
                     {
-                        "beat": 339.3182754,
+                        "beat": 482.2104291,
                         "notes": [
                             true,
                             false,
@@ -2876,7 +2984,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 339.5974848,
+                        "beat": 483.75338460000006,
                         "notes": [
                             false,
                             false,
@@ -2885,34 +2993,43 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 341.66460450000005,
+                        "beat": 483.75338460000006,
                         "notes": [
                             false,
-                            true,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 341.7785238,
+                        "beat": 485.4110253,
                         "notes": [
-                            false,
                             false,
                             true,
+                            false,
                             false
                         ]
                     },
                     {
-                        "beat": 343.6051731,
+                        "beat": 485.5544595,
                         "notes": [
                             true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 487.2090255,
+                        "notes": [
                             false,
                             false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 343.7066715,
+                        "beat": 487.23466650000006,
                         "notes": [
                             false,
                             false,
@@ -2921,7 +3038,7 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 345.5194014,
+                        "beat": 488.7823728,
                         "notes": [
                             false,
                             true,
@@ -2930,25 +3047,520 @@ maps.push(
                         ]
                     },
                     {
-                        "beat": 345.771216,
+                        "beat": 488.886402,
                         "notes": [
+                            true,
                             false,
                             false,
-                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 347.205447,
+                        "beat": 490.44810540000003,
                         "notes": [
-                            true,
                             false,
                             false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 490.44810540000003,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 492.1307544,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 492.24207630000006,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 493.4202192,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 493.52888820000004,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 495.2165544,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 495.22849800000006,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 496.2446808,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 496.376904,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 500.7669318,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 500.86837470000006,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 501.1342974,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 501.28298190000004,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 504.7712124000001,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 505.6630308,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 505.7746524,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 507.3210378,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 507.3210378,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 508.7545362,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 508.7545362,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 510.27651270000007,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 510.2952495,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 511.84089120000004,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 511.85563200000007,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 513.5233959,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 513.5233959,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 514.6776294,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 514.8131937,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 516.4773057000001,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 516.4773057000001,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 517.657047,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 517.7569137,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 519.3044091,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 519.3044091,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 520.7294271,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 520.7294271,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 522.2871789,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 522.2871789,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 523.9444533,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 524.0921832,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 526.392525,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 526.392525,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 526.6493568,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 526.6493568,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 528.7222929,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 528.7222929,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 528.7222929,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 528.8318943,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 531.9410709,
+                        "notes": [
+                            false,
+                            false,
+                            true,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 532.080942,
+                        "notes": [
+                            false,
+                            false,
+                            false,
+                            true
+                        ]
+                    },
+                    {
+                        "beat": 532.080942,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 532.1931408,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 535.1729358,
+                        "notes": [
+                            true,
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 535.1729358,
+                        "notes": [
+                            false,
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "beat": 535.2850569,
+                        "notes": [
+                            false,
+                            false,
+                            true,
                             false
                         ]
                     },
                     {
-                        "beat": 347.3192553,
+                        "beat": 535.2850569,
                         "notes": [
                             false,
                             false,

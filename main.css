@@ -68,7 +68,7 @@ body {
 .key {
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 3rem;
     align-items: center;
     background-color: rgb(121, 121, 121);
     border: 5px solid rgb(199, 199, 199);
@@ -98,5 +98,6 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 /* div { border: 1px dotted red; }   */

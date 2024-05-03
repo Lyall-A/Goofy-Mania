@@ -10,6 +10,8 @@ const settings = {
 const loading = document.getElementById("loading");
 const mapSelect = document.getElementById("map-select");
 const difficultySelect = document.getElementById("difficulty-select");
+const difficulties = document.getElementById("difficulties");
+const game = document.getElementById("game");
 const mania = document.getElementById("mania");
 
 points = points.sort((a, b) => a.pixelDistance - b.pixelDistance);
@@ -47,11 +49,12 @@ function selectMap(mapIndex) {
     const map = maps[mapIndex];
     if (!map) return;
     selectedMap = map;
+    difficulties.innerHTML = "";
     selectedMap.levels.forEach((difficulty, difficultyIndex) => {
         const button = document.createElement("button");
-            button.onclick = () => selectDifficulty(difficultyIndex);
-            button.innerHTML = `${difficulty.name}`;
-            difficultySelect.appendChild(button);
+        button.onclick = () => selectDifficulty(difficultyIndex);
+        button.innerHTML = `${difficulty.name}`;
+        difficulties.appendChild(button);
     });
     mapSelect.style.display = "none";
     difficultySelect.style.display = "flex";
@@ -66,25 +69,36 @@ function selectDifficulty(difficultyIndex) {
 }
 
 function startLevel(map, difficulty) {
-    game = new Mania(map, difficulty, mania, settings);
-    game.start();
+    game.style.display = "flex";
+    maniaGame = new Mania(map, difficulty, mania, settings);
+    maniaGame.start();
+    maniaGame.onstart = () => {
+        if (record) {
+            recordedData = [ ];
+
+            document.onkeydown = e => {
+                const keyIndex = maniaGame.keyKeybinds.findIndex(i => i == e.key.toLowerCase());
+                if (keyIndex == -1) return;
+                const notes = [false, false, false, false];
+                notes[keyIndex] = true;
+                recordedData.push({
+                    beat: maniaGame.currentBeat,
+                    notes
+                });
+            }
+        }
+    }
+    maniaGame.onstop = () => {
+        game.style.display = "none";
+        mapSelect.style.display = "flex";
+    }
 }
 
-function record() {
-    console.log("SADA");
-    if (i == true) {
-        console.log(data);
-        return;
-    }
-    i = true;
-    document.onkeydown = e => {
-        const keyIndex = game.keyKeybinds.findIndex(i => i == e.key.toLowerCase());
-        if (keyIndex == -1) return;
-        const notes = [false, false, false, false];
-        notes[keyIndex] = true;
-        data.push({
-            beat: game.currentBeat,
-            notes
-        })
-    }
+let record = false;
+
+function stopRecord() {
+    if (!record) return;
+    record = false;
+    document.onkeydown = null;
+    console.log(recordedData);
 }
