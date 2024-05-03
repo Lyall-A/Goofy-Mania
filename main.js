@@ -1,3 +1,7 @@
+// TODO: sliders
+// TODO: account for fps drops n that
+// TODO: instead of spawning at the beat spawn before where it would be tapped at the beat instead
+
 const settings = {
     key1Keybind: "d",
     key2Keybind: "f",

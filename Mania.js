@@ -1,3 +1,5 @@
+const globalSpeed = 1;
+
 class Mania {
     constructor(map, difficulty, parent, settings) {
         this.map = map;
@@ -18,7 +20,7 @@ class Mania {
         this.statsElement = document.createElement("div");
         this.notesElement = document.createElement("div");
         this.keysElement = document.createElement("div");
-        
+
         this.comboElement = document.createElement("div");
         this.scoreElement = document.createElement("div");
         this.accuracyElement = document.createElement("div");
@@ -47,7 +49,7 @@ class Mania {
         this.keyKeybinds = [];
 
         for (let i = 0; i < this.level.keys; i++) {
-            this.keys.push({ });
+            this.keys.push({});
             this.keyKeybinds.push(this.settings[`key${i + 1}Keybind`]?.toLowerCase());
 
             const rowElement = document.createElement("div");
@@ -56,10 +58,10 @@ class Mania {
             const keyElement = document.createElement("div");
             keyElement.classList.add("circle", "key");
             keyElement.innerHTML = this.keyKeybinds[i]?.toUpperCase() || "";
-            
+
             this.keys[i].rowElement = rowElement;
             this.keys[i].keyElement = keyElement;
-            
+
             this.notesElement.appendChild(rowElement);
             this.keysElement.appendChild(keyElement);
         }
@@ -107,7 +109,7 @@ class Mania {
                 }
             });
         }
-        
+
         document.onkeyup = e => {
             const keyIndex = this.keyKeybinds.findIndex(i => i == e.key.toLowerCase());
             if (keyIndex == -1) return;
@@ -153,14 +155,14 @@ class Mania {
         this.comboElement.innerHTML = this.combo;
         this.updateAccuracy();
     }
-    
+
     resetCombo() {
         if (!this.combo) return;
         this.combo = 0;
         this.comboElement.innerHTML = this.combo;
         this.playSfx("combobreak.ogg");
     }
-    
+
     addMiss() {
         this.notesHitMissed++;
         this.resetCombo();
@@ -177,16 +179,18 @@ class Mania {
         let top = -120;
         noteElement.style.top = `${top}px`;
 
-        const scrollInterval = setInterval(() => {
-            top += 1 * (this.settings.scrollSpeed || this.map.scrollSpeed / 2);
+        this.gameLoop((deltaTime, nextFrame) => {
+            top += 1 * deltaTime * globalSpeed * ((this.settings.scrollSpeed || this.map.scrollSpeed) / 10);
             noteElement.style.top = `${top}px`;
+
             if (top >= rowElement.clientHeight + 120) {
-                clearInterval(scrollInterval);
                 if (!rowElement.contains(noteElement)) return;
                 this.addMiss();
                 noteElement.remove();
+            } else {
+                nextFrame();
             }
-        }, 1);
+        });
 
         rowElement.appendChild(noteElement);
         // this.notesSpawned++;
@@ -196,7 +200,7 @@ class Mania {
         this.song = new Audio(`maps/${this.map.dir}/${this.map.song}`);
         this.song.volume = (this.settings.songVolume || 100) / 100;
         this.song.onpause = e => e.preventDefault();
-        
+
         await this.song.play();
 
         let checkMapping;
@@ -231,5 +235,19 @@ class Mania {
         this.parent.style.display = "none";
         this.parent.innerHTML = "";
         if (this.onstop) this.onstop();
+    }
+
+    gameLoop(callback) {
+        let prevTime = Date.now();
+
+        const loop = () => {
+            const time = Date.now();
+            const deltaTime = time - prevTime;
+            prevTime = time;
+
+            callback(deltaTime, () => requestAnimationFrame(loop));
+        }
+
+        requestAnimationFrame(loop);
     }
 }
