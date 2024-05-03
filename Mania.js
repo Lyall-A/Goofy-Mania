@@ -1,4 +1,4 @@
-const globalSpeed = 1;
+let globalSpeed = 1;
 
 class Mania {
     constructor(map, difficulty, parent, settings) {
@@ -94,6 +94,7 @@ class Mania {
             const { y: noteY } = note.getBoundingClientRect();
             const { y: keyY } = key.keyElement.getBoundingClientRect();
 
+            
             const early = keyY - noteY;
             const late = noteY - keyY;
 
@@ -193,7 +194,33 @@ class Mania {
         });
 
         rowElement.appendChild(noteElement);
-        // this.notesSpawned++;
+    }
+
+    spawnLongNote(row, length) {
+        // TODO:
+        const rowElement = this.keys[row - 1].rowElement;
+        const longNoteElement = document.createElement("div");
+
+        longNoteElement.classList.add("note", "long-note");
+
+        let top = -length;
+        longNoteElement.style.top = `${top}px`;
+        longNoteElement.style.height = `${length}px`;
+        
+        this.gameLoop((deltaTime, nextFrame) => {
+            top += 1 * deltaTime * globalSpeed * ((this.settings.scrollSpeed || this.map.scrollSpeed) / 10);
+            longNoteElement.style.top = `${top}px`;
+
+            if (top >= rowElement.clientHeight + 120) {
+                if (!rowElement.contains(longNoteElement)) return;
+                this.addMiss();
+                longNoteElement.remove();
+            } else {
+                nextFrame();
+            }
+        });
+
+        rowElement.appendChild(longNoteElement);
     }
 
     async start() {
@@ -203,27 +230,23 @@ class Mania {
 
         await this.song.play();
 
-        let checkMapping;
-        let nextMapping = 0;
         setTimeout(() => {
-            checkMapping = setInterval(() => {
-                this.currentBeat = (this.song.currentTime - this.map.offset) / (60 / this.map.bpm);
-
-                const mapping = this.level.data[nextMapping];
-                // if (!mapping) return clearInterval(checkMapping);
+            let currentBeat = 0;
+            const getMapping = (index) => {
+                const mapping = this.level.data[index];
                 if (!mapping) return;
-                if (this.currentBeat >= (mapping.beat - this.map.beatDifference) && this.currentBeat <= (mapping.beat + this.map.beatDifference)) {
+                
+                setTimeout(() => {
+                    currentBeat = mapping.beat;
                     mapping.notes.forEach((note, index) => {
+                        if (note > 1) this.spawnLongNote(index + 1, note); else
                         if (note) this.spawnNote(index + 1);
                     });
-                    nextMapping++;
-                }
-            }, 10);
-
-            this.song.onended = () => {
-                clearInterval(checkMapping);
-                this.stop();
+                    getMapping(index + 1);
+                }, ((mapping.beat - currentBeat) / this.map.bpm) * 60 * 1000);
             }
+
+            getMapping(0);
         }, this.map.offset);
 
         if (this.onstart) this.onstart();
@@ -238,11 +261,11 @@ class Mania {
     }
 
     gameLoop(callback) {
-        let prevTime = Date.now();
+        let prevTime;
 
         const loop = () => {
             const time = Date.now();
-            const deltaTime = time - prevTime;
+            const deltaTime = time - (prevTime || time);
             prevTime = time;
 
             callback(deltaTime, () => requestAnimationFrame(loop));

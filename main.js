@@ -1,5 +1,4 @@
 // TODO: sliders
-// TODO: account for fps drops n that
 // TODO: instead of spawning at the beat spawn before where it would be tapped at the beat instead
 
 const settings = {
@@ -83,8 +82,8 @@ function startLevel(map, difficulty) {
             document.onkeydown = e => {
                 const keyIndex = maniaGame.keyKeybinds.findIndex(i => i == e.key.toLowerCase());
                 if (keyIndex == -1) return;
-                const notes = [false, false, false, false];
-                notes[keyIndex] = true;
+                const notes = [0, 0, 0, 0];
+                notes[keyIndex] = 1;
                 recordedData.push({
                     beat: maniaGame.currentBeat,
                     notes
