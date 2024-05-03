@@ -3,7 +3,7 @@ maps.push(
         name: "666",
         author: "RoughSketch",
         mappers: ["Lyall"],
-        song: "/songs/666.ogg",
+        song: "666.ogg",
         bpm: 666,
         beatDifference: 0.25,
         scrollSpeed: 15,

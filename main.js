@@ -15,20 +15,21 @@ const mania = document.getElementById("mania");
 points = points.sort((a, b) => a.pixelDistance - b.pixelDistance);
 
 const maps = [];
-loadMaps("666.js", "feral.js");
+loadMaps("666", "feral");
 
-function loadMaps(...mapFiles) {
+function loadMaps(...mapDirs) {
     (function loadMap(index) {
-        const file = mapFiles[index];
-        if (!file) {
+        const dir = mapDirs[index];
+        if (!dir) {
             loading.style.display = "none";
             mapSelect.style.display = "flex";
             return;
         }
         const script = document.createElement("script");
-        script.src = `maps/${file}`;
+        script.src = `maps/${dir}/map.js`;
         script.onload = () => {
             const map = maps[maps.length - 1];
+            map.dir = dir;
             const button = document.createElement("button");
             button.onclick = () => selectMap(index);
             button.innerHTML = `${map.name} - ${map.author} (${map.mappers.join(", ")})`;

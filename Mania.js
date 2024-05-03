@@ -154,7 +154,7 @@ class Mania {
     }
 
     async start() {
-        this.song = new Audio(this.map.song);
+        this.song = new Audio(`maps/${this.map.dir}/${this.map.song}`);
         this.song.volume = (this.settings.songVolume || 100) / 100;
         this.song.onpause = e => e.preventDefault();
         
@@ -176,6 +176,8 @@ class Mania {
                     nextMapping++;
                 }
             }, 10);
+
+            this.song.onended = () => clearInterval(checkMapping);
         }, this.map.offset);
     }
 }
