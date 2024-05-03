@@ -25,8 +25,6 @@ body {
     justify-content: center;
 }
 
-
-
 #mania {
     display: flex;
     flex-direction: column;
@@ -94,10 +92,26 @@ body {
     display: flex;
     height: 100%;
     flex-direction: column;
-    margin-bottom: 100px;
+    bottom: 100px;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
+#points-name {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    font-size: 5rem;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    animation: points-grow 0.15s;
+    z-index: 1;
+}
+
+@keyframes points-grow {
+    100% { font-size: 7rem; }
+}
 
 /* div { border: 1px dotted red; }   */

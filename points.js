@@ -1,18 +1,18 @@
 let points = [
     {
         points: 300,
-        text: "300",
-        pixelDistance: 25
-    },
-    {
-        points: 200,
-        text: "200",
+        text: "PERFECT",
         pixelDistance: 75
     },
     {
-        points: 100,
-        text: "100",
+        points: 200,
+        text: "GREAT",
         pixelDistance: 100
+    },
+    {
+        points: 100,
+        text: "GOOD",
+        pixelDistance: 125
     },
     {
         points: 50,

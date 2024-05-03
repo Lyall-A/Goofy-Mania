@@ -5,29 +5,43 @@ class Mania {
         this.parent = parent;
         this.settings = settings;
 
-        this.combo = 0;
-        this.misses = 0;
-        this.points = 0;
-
         this.level = map.levels[difficulty];
 
+        this.combo = 0;
+        this.misses = 0;
+        this.score = 0;
+        // this.multiplier = 1;
+        this.accuracy = 100.00;
+
+        this.notesHitMissed = 0;
+
         this.statsElement = document.createElement("div");
-        this.comboElement = document.createElement("div");
-        this.pointsElement = document.createElement("div");
         this.notesElement = document.createElement("div");
         this.keysElement = document.createElement("div");
+        
+        this.comboElement = document.createElement("div");
+        this.scoreElement = document.createElement("div");
+        this.accuracyElement = document.createElement("div");
+
+        this.scoreNameElement = document.createElement("div");
 
         this.statsElement.classList.add("stats");
-
-        this.comboElement.id = "combo";
-        this.comboElement.innerHTML = "0";
-
-        this.pointsElement.id = "points";
-        this.pointsElement.innerHTML = "0";
 
         this.notesElement.id = "notes";
 
         this.keysElement.id = "keys";
+
+        this.comboElement.id = "combo";
+        this.comboElement.innerHTML = this.combo;
+
+        this.scoreElement.id = "points";
+        this.scoreElement.innerHTML = this.score;
+
+        this.accuracyElement.id = "accuracy";
+        this.accuracyElement.innerHTML = `${this.accuracy.toFixed(2)}%`;
+
+        this.scoreNameElement.id = "points-name";
+        this.scoreNameElement.style.display = "none";
 
         this.keys = [];
         this.keyKeybinds = [];
@@ -51,11 +65,14 @@ class Mania {
         }
 
         this.statsElement.appendChild(this.comboElement);
-        this.statsElement.appendChild(this.pointsElement);
+        this.statsElement.appendChild(this.scoreElement);
+        this.statsElement.appendChild(this.accuracyElement);
 
         this.parent.appendChild(this.statsElement);
         this.parent.appendChild(this.notesElement);
         this.parent.appendChild(this.keysElement);
+
+        this.parent.appendChild(this.scoreNameElement);
 
         document.onkeydown = e => {
             const keyIndex = this.keyKeybinds.findIndex(i => i == e.key.toLowerCase());
@@ -75,13 +92,16 @@ class Mania {
             const { y: noteY } = note.getBoundingClientRect();
             const { y: keyY } = key.keyElement.getBoundingClientRect();
 
-            const distance = Math.max(keyY - noteY, noteY - keyY);
+            const early = keyY - noteY;
+            const late = noteY - keyY;
+
+            const distance = Math.max(early, late);
 
             let addedPoints = false;
             points.forEach(point => {
                 if (!addedPoints && distance <= point.pixelDistance) {
                     addedPoints = true;
-                    this.addPoints(point);
+                    this.addPoints(point, early, late);
                     note.remove();
                     this.addCombo();
                 }
@@ -107,14 +127,31 @@ class Mania {
         return audio.play();
     }
 
-    addPoints(point) {
-        this.points += point.points;
-        this.pointsElement.innerHTML = this.points;
+    addPoints(point, early, late) {
+        this.score += point.points;
+        this.scoreElement.innerHTML = this.score;
+
+        clearTimeout(this.scoreNameTimeout);
+        this.scoreNameElement.style.display = "none";
+
+        setTimeout(() => {
+            // NOTE: setTimeout to reset the font-size animation
+            this.scoreNameElement.style.display = "flex";
+            this.scoreNameElement.innerHTML = `${point.text}`;
+            this.scoreNameTimeout = setTimeout(() => this.scoreNameElement.style.display = "none", 200)
+        });
+    }
+
+    updateAccuracy() {
+        this.accuracy = (this.score / (points[0].points * this.notesHitMissed)) * 100;
+        this.accuracyElement.innerHTML = `${this.accuracy.toFixed(2)}%`;
     }
 
     addCombo() {
+        this.notesHitMissed++;
         this.combo++;
         this.comboElement.innerHTML = this.combo;
+        this.updateAccuracy();
     }
     
     resetCombo() {
@@ -123,9 +160,11 @@ class Mania {
         this.comboElement.innerHTML = this.combo;
         this.playSfx("combobreak.ogg");
     }
-
+    
     addMiss() {
+        this.notesHitMissed++;
         this.resetCombo();
+        this.updateAccuracy();
         // this.playSfx("miss.ogg");
     }
 
@@ -147,9 +186,10 @@ class Mania {
                 this.addMiss();
                 noteElement.remove();
             }
-        });
+        }, 1);
 
         rowElement.appendChild(noteElement);
+        // this.notesSpawned++;
     }
 
     async start() {
