@@ -36,13 +36,13 @@ class Mania {
         this.comboElement.id = "combo";
         this.comboElement.innerHTML = this.combo;
 
-        this.scoreElement.id = "points";
+        this.scoreElement.id = "score";
         this.scoreElement.innerHTML = this.score;
 
         this.accuracyElement.id = "accuracy";
         this.accuracyElement.innerHTML = `${this.accuracy.toFixed(2)}%`;
 
-        this.scoreNameElement.id = "points-name";
+        this.scoreNameElement.id = "score-name";
         this.scoreNameElement.style.display = "none";
 
         this.keys = [];
@@ -79,6 +79,7 @@ class Mania {
         document.onkeydown = e => {
             const keyIndex = this.keyKeybinds.findIndex(i => i == e.key.toLowerCase());
             if (keyIndex == -1) return;
+            // e.preventDefault();
             const key = this.keys[keyIndex];
             if (key.isDown) return;
             key.isDown = true;
@@ -114,6 +115,7 @@ class Mania {
         document.onkeyup = e => {
             const keyIndex = this.keyKeybinds.findIndex(i => i == e.key.toLowerCase());
             if (keyIndex == -1) return;
+            // e.preventDefault();
             const key = this.keys[keyIndex];
             key.isDown = false;
 
@@ -134,14 +136,26 @@ class Mania {
         this.score += point.points;
         this.scoreElement.innerHTML = this.score;
 
+        const clearScoreName = () => {
+            this.scoreNameElement.style.display = "none";
+            this.scoreNameElement.innerHTML = "";
+        }
+
         clearTimeout(this.scoreNameTimeout);
-        this.scoreNameElement.style.display = "none";
+        clearScoreName();
 
         setTimeout(() => {
             // NOTE: setTimeout to reset the font-size animation
             this.scoreNameElement.style.display = "flex";
-            this.scoreNameElement.innerHTML = `${point.text}`;
-            this.scoreNameTimeout = setTimeout(() => this.scoreNameElement.style.display = "none", 200)
+            if (point.asset) {
+                const imageElement = document.createElement("img");
+                imageElement.src = `assets/${point.asset}`;
+                this.scoreNameElement.appendChild(imageElement);
+            } else {
+                this.scoreNameElement.innerHTML = `${point.text}`;
+            }
+
+            this.scoreNameTimeout = setTimeout(() => clearScoreName(), 150);
         });
     }
 
@@ -180,7 +194,7 @@ class Mania {
         let top = -120;
         noteElement.style.top = `${top}px`;
 
-        this.gameLoop((deltaTime, nextFrame) => {
+        this.gameLoop((deltaTime, nextFrame, fps) => {
             top += 1 * deltaTime * globalSpeed * ((this.settings.scrollSpeed || this.map.scrollSpeed) / 10);
             noteElement.style.top = `${top}px`;
 
@@ -198,29 +212,6 @@ class Mania {
 
     spawnLongNote(row, length) {
         // TODO:
-        const rowElement = this.keys[row - 1].rowElement;
-        const longNoteElement = document.createElement("div");
-
-        longNoteElement.classList.add("note", "long-note");
-
-        let top = -length;
-        longNoteElement.style.top = `${top}px`;
-        longNoteElement.style.height = `${length}px`;
-        
-        this.gameLoop((deltaTime, nextFrame) => {
-            top += 1 * deltaTime * globalSpeed * ((this.settings.scrollSpeed || this.map.scrollSpeed) / 10);
-            longNoteElement.style.top = `${top}px`;
-
-            if (top >= rowElement.clientHeight + 120) {
-                if (!rowElement.contains(longNoteElement)) return;
-                this.addMiss();
-                longNoteElement.remove();
-            } else {
-                nextFrame();
-            }
-        });
-
-        rowElement.appendChild(longNoteElement);
     }
 
     async start() {
@@ -249,7 +240,18 @@ class Mania {
             getMapping(0);
         }, this.map.offset);
 
+        // this.gameLoop((deltaTime, nextFrame, fps) => {
+        //     console.log(fps, "FPS");
+        //     nextFrame();
+        // });
+
+        this.song.onended = () => this.stop();
+
         if (this.onstart) this.onstart();
+    }
+
+    getCurrentBeat() {
+        return (this.song.currentTime - this.map.offset) / (60 / this.map.bpm);
     }
 
     stop() {
@@ -262,13 +264,15 @@ class Mania {
 
     gameLoop(callback) {
         let prevTime;
+        let fps = 0;
 
         const loop = () => {
             const time = Date.now();
             const deltaTime = time - (prevTime || time);
+            if (deltaTime) fps = Math.round(1000 / deltaTime);
             prevTime = time;
 
-            callback(deltaTime, () => requestAnimationFrame(loop));
+            callback(deltaTime, () => requestAnimationFrame(loop), fps);
         }
 
         requestAnimationFrame(loop);

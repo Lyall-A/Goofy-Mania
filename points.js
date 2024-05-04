@@ -1,17 +1,21 @@
 let points = [
     {
         points: 300,
-        text: "PERFECT",
+        // text: "PERFECT",
+        text: "GYAT",
+        asset: "gyat.png",
         pixelDistance: 75
     },
     {
         points: 200,
-        text: "GREAT",
+        // text: "GREAT",
+        text: "SIGMA",
         pixelDistance: 100
     },
     {
         points: 100,
-        text: "GOOD",
+        // text: "GOOD",
+        text: "SKIBIDI",
         pixelDistance: 125
     },
     {

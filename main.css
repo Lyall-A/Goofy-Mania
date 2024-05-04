@@ -32,6 +32,7 @@ body {
     justify-content: flex-end;
     background-color: rgb(85, 85, 85);
     height: 100%;
+    cursor: none;
 }
 
 .circle {
@@ -87,7 +88,7 @@ body {
     font-size: 5rem;
 }
 
-#points {
+#score {
     font-size: 2rem;
 }
 
@@ -102,7 +103,7 @@ body {
     z-index: 1;
 }
 
-#points-name {
+#score-name {
     position: absolute;
     display: flex;
     height: 100%;
@@ -110,12 +111,13 @@ body {
     top: 100px;
     justify-content: center;
     align-items: center;
-    animation: points-grow 0.15s;
+    animation: score-grow 0.15s;
     z-index: 1;
 }
 
-@keyframes points-grow {
-    100% { font-size: 7rem; }
+@keyframes score-grow {
+    100% { transform: scale(150%); }
+    /* 100% { font-size: 7rem; } */
 }
 
 /* div { border: 1px dotted red; }   */

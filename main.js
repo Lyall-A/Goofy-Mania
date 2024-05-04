@@ -85,7 +85,7 @@ function startLevel(map, difficulty) {
                 const notes = [0, 0, 0, 0];
                 notes[keyIndex] = 1;
                 recordedData.push({
-                    beat: maniaGame.currentBeat,
+                    beat: maniaGame.getCurrentBeat(),
                     notes
                 });
             }
