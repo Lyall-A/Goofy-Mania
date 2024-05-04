@@ -25,6 +25,30 @@ body {
     justify-content: center;
 }
 
+#maps-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#maps-list div {
+    margin: 25px;    
+    width: 250px;
+    height: 250px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#maps-list img {
+    margin-bottom: 25px;
+    width: 150px;
+}
+
 #mania {
     display: flex;
     flex-direction: column;

@@ -4,6 +4,7 @@ maps.push(
         author: "meganeko",
         mappers: ["Lyall"],
         song: "feral.ogg",
+        cover: "feral.jpg",
         bpm: 160,
         beatDifference: 0.25,
         scrollSpeed: 15,

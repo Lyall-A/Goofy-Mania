@@ -12,6 +12,7 @@ const settings = {
 
 const loading = document.getElementById("loading");
 const mapSelect = document.getElementById("map-select");
+const mapsList = document.getElementById("maps-list");
 const difficultySelect = document.getElementById("difficulty-select");
 const difficulties = document.getElementById("difficulties");
 const game = document.getElementById("game");
@@ -35,10 +36,20 @@ function loadMaps(...mapDirs) {
         script.onload = () => {
             const map = maps[maps.length - 1];
             map.dir = dir;
-            const button = document.createElement("button");
+
+            const button = document.createElement("div");
             button.onclick = () => selectMap(index);
-            button.innerHTML = `${map.name} - ${map.author} (${map.mappers.join(", ")})`;
-            mapSelect.appendChild(button);
+
+            const coverImg = document.createElement("img");
+            coverImg.src = `maps/${dir}/${map.cover}`;
+
+            const title = document.createElement("span");
+            title.innerHTML = `${map.name} - ${map.author} (${map.mappers.join(", ")})`
+
+            button.appendChild(coverImg);
+            button.appendChild(title);
+
+            mapsList.appendChild(button);
             loadMap(index+1);
         }
         document.head.appendChild(script);
