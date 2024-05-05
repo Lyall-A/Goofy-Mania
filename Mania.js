@@ -13,13 +13,13 @@ class Mania {
         };
 
         this.assets = {
-
+            // "gya"
         };
 
         points.forEach((point, index) => {
             if (point.asset) {
-                this.assets[point.text] = document.createElement("img");
-                this.assets[point.text].src = `assets/${point.asset}`;
+                points[index].assetElement = document.createElement("img");
+                points[index].assetElement.src = `assets/${point.asset}`;
             }
         });
 
