@@ -12,7 +12,7 @@ maps.push(
         offset: 0,
         levels: [
             {
-                name: "FOR TESTING!!!!",
+                name: "Hard (trust)",
                 keys: 4,
                 data: [
                     {

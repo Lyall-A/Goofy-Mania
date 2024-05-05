@@ -11,7 +11,7 @@ maps.push(
         offset: 0,
         levels: [
             {
-                name: "FOR TESTING!!!!",
+                name: "i recorded my keystrokes and then proceeded to spam my keyboard",
                 keys: 4,
                 data: [
                     {
