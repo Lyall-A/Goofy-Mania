@@ -6,7 +6,7 @@ const settings = {
     key2Keybind: "f",
     key3Keybind: "j",
     key4Keybind: "k",
-    sfxVolume: 25,
+    sfxVolume: 15,
     songVolume: 50
 };
 
