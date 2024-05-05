@@ -5,6 +5,7 @@ maps.push(
         mappers: ["Lyall"],
         song: "666.ogg",
         cover: "666.jpg",
+        background: "background.webp",
         bpm: 666,
         beatDifference: 0.25,
         scrollSpeed: 15,

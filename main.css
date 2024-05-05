@@ -54,9 +54,30 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background-color: rgb(85, 85, 85);
+    background-color: rgba(85, 85, 85, 0.5);
     height: 100%;
     cursor: none;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mania-background {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+#mania-background * {
+    /* height: 100%; */
+    width: 100%;
 }
 
 .circle {

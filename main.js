@@ -16,9 +16,15 @@ const mapsList = document.getElementById("maps-list");
 const difficultySelect = document.getElementById("difficulty-select");
 const difficulties = document.getElementById("difficulties");
 const game = document.getElementById("game");
-const mania = document.getElementById("mania");
+// const mania = document.getElementById("mania");
 
 points = points.sort((a, b) => a.pixelDistance - b.pixelDistance);
+// points.forEach((point, index) => {
+//     if (point.asset) {
+//         points[index].assetElement = document.createElement("img");
+//         points[index].assetElement.src = `assets/${point.asset}`;
+//     }
+// });
 
 const maps = [];
 loadMaps("666", "feral");
@@ -84,7 +90,7 @@ function selectDifficulty(difficultyIndex) {
 
 function startLevel(map, difficulty) {
     game.style.display = "flex";
-    maniaGame = new Mania(map, difficulty, mania, settings);
+    maniaGame = new Mania(map, difficulty, game, settings);
     maniaGame.start();
     maniaGame.onstart = () => {
         if (record) {

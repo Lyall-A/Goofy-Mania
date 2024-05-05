@@ -7,6 +7,22 @@ class Mania {
         this.parent = parent;
         this.settings = settings;
 
+        this.sfx = {
+            key: new Audio("sfx/key.ogg"),
+            combobreak: new Audio("sfx/combobreak.ogg")
+        };
+
+        this.assets = {
+
+        };
+
+        points.forEach((point, index) => {
+            if (point.asset) {
+                this.assets[point.text] = document.createElement("img");
+                this.assets[point.text].src = `assets/${point.asset}`;
+            }
+        });
+
         this.level = map.levels[difficulty];
 
         this.combo = 0;
@@ -17,6 +33,9 @@ class Mania {
 
         this.notesHitMissed = 0;
 
+        this.maniaElement = document.createElement("div");
+        this.maniaBackgroundElement = document.createElement("div");
+
         this.statsElement = document.createElement("div");
         this.notesElement = document.createElement("div");
         this.keysElement = document.createElement("div");
@@ -26,6 +45,15 @@ class Mania {
         this.accuracyElement = document.createElement("div");
 
         this.scoreNameElement = document.createElement("div");
+
+        this.maniaElement.id = "mania";
+        this.maniaBackgroundElement.id = "mania-background";
+        if (this.map.background) {
+            this.maniaBackgroundImageElement = document.createElement("img");
+            this.maniaBackgroundImageElement.src = `/maps/${this.map.dir}/${this.map.background}`;
+            this.maniaBackgroundImageElement.width = "100%";
+            this.maniaBackgroundElement.appendChild(this.maniaBackgroundImageElement);
+        }
 
         this.statsElement.classList.add("stats");
 
@@ -70,11 +98,14 @@ class Mania {
         this.statsElement.appendChild(this.scoreElement);
         this.statsElement.appendChild(this.accuracyElement);
 
-        this.parent.appendChild(this.statsElement);
-        this.parent.appendChild(this.notesElement);
-        this.parent.appendChild(this.keysElement);
+        this.maniaElement.appendChild(this.statsElement);
+        this.maniaElement.appendChild(this.notesElement);
+        this.maniaElement.appendChild(this.keysElement);
+        
+        this.maniaElement.appendChild(this.scoreNameElement);
 
-        this.parent.appendChild(this.scoreNameElement);
+        this.parent.appendChild(this.maniaElement);
+        this.parent.appendChild(this.maniaBackgroundElement);
 
         document.onkeydown = e => {
             const keyIndex = this.keyKeybinds.findIndex(i => i == e.key.toLowerCase());
@@ -85,7 +116,7 @@ class Mania {
             key.isDown = true;
 
             key.keyElement.classList.add("keydown");
-            this.playSfx("key.ogg");
+            this.playSfx("key");
 
             const rowElement = key.rowElement;
             const notes = rowElement.getElementsByClassName("note");
@@ -95,7 +126,7 @@ class Mania {
             const { y: noteY } = note.getBoundingClientRect();
             const { y: keyY } = key.keyElement.getBoundingClientRect();
 
-            
+
             const early = keyY - noteY;
             const late = noteY - keyY;
 
@@ -126,7 +157,7 @@ class Mania {
     }
 
     playSfx(sfx, volume = this.settings.sfxVolume) {
-        const audio = new Audio(`sfx/${sfx}`);
+        const audio = this.sfx[sfx].cloneNode(true);
         audio.volume = (volume || 100) / 100;
         audio.onpause = e => e.preventDefault();
         return audio.play();
@@ -147,10 +178,8 @@ class Mania {
         setTimeout(() => {
             // NOTE: setTimeout to reset the font-size animation
             this.scoreNameElement.style.display = "flex";
-            if (point.asset) {
-                const imageElement = document.createElement("img");
-                imageElement.src = `assets/${point.asset}`;
-                this.scoreNameElement.appendChild(imageElement);
+            if (point.assetElement) {
+                this.scoreNameElement.appendChild(point.assetElement);
             } else {
                 this.scoreNameElement.innerHTML = `${point.text}`;
             }
@@ -175,7 +204,7 @@ class Mania {
         if (!this.combo) return;
         this.combo = 0;
         this.comboElement.innerHTML = this.combo;
-        this.playSfx("combobreak.ogg");
+        this.playSfx("combobreak");
     }
 
     addMiss() {
@@ -226,12 +255,12 @@ class Mania {
             const getMapping = (index) => {
                 const mapping = this.level.data[index];
                 if (!mapping) return;
-                
+
                 setTimeout(() => {
                     currentBeat = mapping.beat;
                     mapping.notes.forEach((note, index) => {
                         if (note > 1) this.spawnLongNote(index + 1, note); else
-                        if (note) this.spawnNote(index + 1);
+                            if (note) this.spawnNote(index + 1);
                     });
                     getMapping(index + 1);
                 }, ((mapping.beat - currentBeat) / this.map.bpm) * 60 * 1000);
@@ -255,10 +284,12 @@ class Mania {
     }
 
     stop() {
+        this.parent.style.display = "none";
         this.song.pause();
         this.song.remove();
-        this.parent.style.display = "none";
-        this.parent.innerHTML = "";
+        this.maniaElement.remove();
+        this.maniaBackgroundElement.remove();
+        // this.parent.innerHTML = "";
         if (this.onstop) this.onstop();
     }
 
