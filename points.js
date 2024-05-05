@@ -2,9 +2,9 @@ let points = [
     {
         points: 300,
         // text: "PERFECT",
-        text: "GYAT",
+        text: "TIKTOK RIZZ PARTY",
         asset: "gyat.png",
-        pixelDistance: 75
+        pixelDistance: 65
     },
     {
         points: 200,
