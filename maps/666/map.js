@@ -5560,7 +5560,7 @@ maps.push(
         ]
     }
 ]
-            }
+            },
             {
                 name: "Hard (trust)",
                 keys: 4,
